@@ -1,0 +1,8 @@
+.hero {
+  background: url('https://plus.unsplash.com/premium_photo-1681989486976-9ec9d2eac57a?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29uc3RydWN0aW9ufGVufDB8fDB8fHww') center/cover no-repeat;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 5rem 2rem;
+  background-blend-mode: overlay;
+  background-color: rgba(26, 46, 85, 0.5);
+}

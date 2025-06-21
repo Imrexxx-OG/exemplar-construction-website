@@ -1,0 +1,37 @@
+header {
+  background-color: #1A2E55;
+  color: #FFFFFF;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  color: #F28C38;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+nav a:hover,
+nav a.active {
+  color: #F28C38;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

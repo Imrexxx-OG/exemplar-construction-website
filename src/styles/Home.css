@@ -1,0 +1,19 @@
+.home {
+  padding: 2rem;
+  text-align: center;
+}
+
+.home section {
+  margin-top: 2rem;
+}
+
+.home h2 {
+  color: #F28C38;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .home {
+    padding: 1rem;
+  }
+}

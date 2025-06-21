@@ -1,0 +1,22 @@
+.management {
+  text-align: center;
+  padding: 2rem;
+}
+
+.management h1 {
+  color: #F28C38;
+  margin-bottom: 2rem;
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+@media (max-width: 768px) {
+  .profile-grid {
+    grid-template-columns: 1fr;
+  }
+}
